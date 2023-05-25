@@ -1,0 +1,28 @@
+.header,
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin: 0 10% 0 10%;
+    padding: 24px 10% 24px 10%;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .links {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    padding: 18px;
+    color: inherit;
+}
+
+.small-img {
+    width: 100px;
+    height: 100px;
+}
